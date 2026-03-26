@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "5",
 
   // Services
   services: [
@@ -79,9 +79,11 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "David Scholey", rating: 5, text: "Newdrives have just completed work block paving our 90m2 drive. We are both absolutely delighted with the transformation. The huge semi circular step at the front door is even better than we hoped it would be. We have no problem in thoroughly and sin", date: "6 years ago" },
+    { name: "Chris Rider", rating: 5, text: "Had block paving driveway laid two years ago. Faultless job. Now time for some maintenance, with a few weeds beginning to poke through... ", date: "5 years ago" },
+    { name: "Fraser Colquhoun", rating: 5, text: "Did my neighbours drive the noise and dust was unbelievable.Vans parked everywhere with no consideration for anyone else .Cars we’re all covered in dust.Hope this lot don’t come to a drive near you ", date: "3 years ago" },
+    { name: "John Atkinson", rating: 5, text: "Good professional job , very tidy , highly recommended from our own experience. ", date: "6 years ago" },
+    { name: "Karl Bullen", rating: 5, text: "Never answered a phone call. Tried different times of different days and no answer. ", date: "4 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
